@@ -1,0 +1,10 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F6F6;
+  padding-top: 80px;
+  padding-bottom: 55px;
+
+}
