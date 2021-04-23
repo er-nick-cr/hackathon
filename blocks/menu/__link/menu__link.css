@@ -1,5 +1,6 @@
 .menu__link {
 	color: #828282;
+	display: block;
 	font-size: 18px;
 	font-weight: bold;
 	text-decoration: none;
@@ -8,4 +9,9 @@
 	padding: 0;
 	font-size: 18px;
 	line-height: 22px;
+	transition: 0.2s linear;
+}
+
+.menu__link:hover {
+	transform: scale(1.2);
 }
