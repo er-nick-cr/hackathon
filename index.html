@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="./pages/index.css" />
 		<title>Заголовок</title>
 	</head>
-	<body class="page">
+	<body class="body">
 		<page class="page">
 			<header class="header">
 				<nav class="navigation">
@@ -21,12 +21,33 @@
 			</header>
 			<main id="content">
 				<section class="author">
-					<div class="bio"></div>
+					<div class="bio">
+						<div class="bio__name">
+							<h1 class="bio__first-name">Денис</h1>
+							<h2 class="bio__second-name">Новик</h2>
+						</div>
+						<article class="bio__about">
+							UX | UI дизайнер 24 года, Москва
+						</article>
+						<ul class="bio__page-language">
+							<li>
+								<a href="#" class="bio__lang-link bio__lang-link_active">RU</a>
+							</li>
+							<span class="bio__border">|</span>
+							<li><a href="#" class="bio__lang-link">ENG</a></li>
+						</ul>
+					</div>
+					<div data-limit-y="0" class="image">
+						<div data-depth="0.05" class="image__background"></div>
+						<div data-depth="0.15" class="image__person"></div>
+					</div>
 				</section>
 			</main>
 
 			<footer class="footer"></footer>
 		</page>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 		<script src="./pages/index.js" defer></script>
+		<script src="./scripts/parallax.js"></script>
 	</body>
 </html>

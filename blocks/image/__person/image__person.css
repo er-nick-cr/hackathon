@@ -1,0 +1,9 @@
+.image__person {
+	width: 100%;
+	height: 383px;
+	background-image: url(../../../images/image-person.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	margin-top: 68px;
+	margin-left: 300px;
+}
