@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <script src="./pages/index.js" defer></script>
-  <title>Заголовок</title>
-</head>
-<body class="page">
-  <header class="header">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./pages/index.css" />
+		<title>Заголовок</title>
+	</head>
+	<body class="page">
+		<page class="page">
+			<header class="header">
+				<nav class="navigation">
+					<ul class="menu">
+						<li><a href="#" class="menu__link menu__link_active">Домой</a></li>
+						<li><a href="#" class="menu__link">О себе</a></li>
+						<li><a href="#" class="menu__link">Навыки</a></li>
+						<li><a href="#" class="menu__link">Портфолио</a></li>
+						<li><a href="#" class="menu__link">Контакты</a></li>
+					</ul>
+				</nav>
+			</header>
+			<main id="content">
+				<section class="author">
+					<div class="bio"></div>
+				</section>
+			</main>
 
-  </header>
-
-  <main id="content">
-
-  </main>
-
-  <footer class="footer">
-
-  </footer>
-</body>
+			<footer class="footer"></footer>
+		</page>
+		<script src="./pages/index.js" defer></script>
+	</body>
 </html>
