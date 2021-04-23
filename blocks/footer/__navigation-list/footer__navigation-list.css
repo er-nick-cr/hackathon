@@ -1,0 +1,7 @@
+.footer__navigation-list {
+  max-width: 170px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
