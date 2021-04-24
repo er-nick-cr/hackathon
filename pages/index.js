@@ -1,4 +1,3 @@
-import PopupWithForm from '../components/PopupWithForm.js';
 import PopupWithImage from "../components/PopupWithImage.js";
 import PopupWithForm from "../components/PopupWithForm.js";
 import PopupWithMenu from "../components/PopupWithMenu.js";
@@ -24,8 +23,6 @@ const popupWithSendMessage = new PopupWithForm({
 
   }
 })
-
-popupWithSendMessage.setEventListeners()
 
 popupWithSendMessage.setEventListeners();
 
