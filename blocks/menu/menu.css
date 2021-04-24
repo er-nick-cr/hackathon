@@ -27,3 +27,9 @@
     background-color: #fff;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .menu {
+    width: 320px;
+  }
+}
