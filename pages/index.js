@@ -6,6 +6,32 @@ const popupWithImg = new PopupWithImage(popupImg);
 
 const menuButton = document.querySelector(".author__button");
 const menu = document.querySelector(".menu");
+import PopupWithImage from "../components/PopupWithImage.js";
+
+import {
+  popupImg,
+  portfolioImageHowToLearn,
+  portfolioImageRussianTravel,
+  portfolioImageMesto,
+  initialLinks,
+} from "../utils/constants.js";
+
+const popupWithImg = new PopupWithImage(popupImg);
+
+console.log(initialLinks.linkHowToLearn);
+
+portfolioImageHowToLearn.addEventListener("click", () => {
+  popupWithImg.open(initialLinks.linkHowToLearn);
+});
+
+portfolioImageRussianTravel.addEventListener("click", () => {
+  popupWithImg.open(initialLinks.linkRussianTravel);
+});
+
+portfolioImageMesto.addEventListener("click", () => {
+  popupWithImg.open(initialLinks.linkMesto);
+});
+
 const menuLinks = Array.from(document.querySelectorAll(".menu__link"));
 const langElement = document.querySelector(".bio__page-language");
 console.log(menuLinks);
