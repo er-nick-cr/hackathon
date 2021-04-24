@@ -1,0 +1,30 @@
+.menu {
+	width: 940px;
+	/* margin: 0 auto; */
+	height: 87px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #828282;
+}
+
+@media screen and (max-width: 1200px) {
+	.menu {
+		width: 850px;
+	}
+}
+
+@media screen and (max-width: 1090px) {
+	.menu {
+		width: 700px;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	.menu {
+		max-width: 500px;
+	}
+}

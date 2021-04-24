@@ -1,0 +1,11 @@
+.bio__second-name {
+	font-size: 47.3392px;
+	line-height: 59px;
+	font-weight: bold;
+	margin: 0;
+	overflow: hidden;
+}
+
+.bio__second-name {
+	animation: moveleft 3s ease;
+}
