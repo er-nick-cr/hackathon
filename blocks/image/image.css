@@ -1,4 +1,12 @@
 .image {
-	padding: 50px 0 104px 0;
-	overflow: hidden;
+  padding: 50px 0 104px 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

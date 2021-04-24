@@ -1,6 +1,12 @@
 .bio__about {
-	font-size: 18px;
-	line-height: 22px;
-	font-weight: medium;
-	max-width: 140px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: medium;
+  max-width: 140px;
+}
+
+@media screen and (max-width: 1000px) {
+  .bio__about {
+    margin: 23px 0 0 0;
+  }
 }

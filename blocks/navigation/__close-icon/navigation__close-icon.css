@@ -1,0 +1,21 @@
+.navigation__close-icon {
+  display: none;
+  background-image: url(../../../images/close-icon.svg);
+}
+
+@media screen and (max-width: 1000px) {
+  .navigation__close-icon {
+    display: block;
+    position: fixed;
+    top: 75px;
+    right: 20px;
+    width: 22px;
+    height: 22px;
+    border: none;
+    outline: none;
+    padding: 0;
+    background: transparent;
+    background-image: url(../../../images/close-icon.svg);
+    z-index: 5;
+  }
+}

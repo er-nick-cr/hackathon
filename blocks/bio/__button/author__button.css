@@ -1,0 +1,17 @@
+.author__button {
+  width: 33px;
+  height: 19px;
+  background-image: url(../../../images/menu-button.svg);
+  position: absolute;
+  top: 68px;
+  right: 30px;
+  border: none;
+  outline: none;
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .author__button {
+    display: block;
+  }
+}

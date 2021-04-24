@@ -1,0 +1,13 @@
+.portfolio__list-link {
+  display: inline-block;
+  margin-top: 18px;
+
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+.portfolio__list-link:hover {
+  opacity: 0.6;
+}
