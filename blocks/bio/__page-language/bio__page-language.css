@@ -18,5 +18,13 @@
 @media screen and (max-width: 1000px) {
   .bio__page-language {
     display: none;
+    font-size: 34px;
+    line-height: 42px;
+    width: 144px;
+    position: fixed;
+    top: 730px;
+    right: 50px;
+    z-index: 6;
+    transform: rotate(90deg);
   }
 }
