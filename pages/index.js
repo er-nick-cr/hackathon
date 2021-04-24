@@ -14,21 +14,19 @@ import {
   menu,
 } from "../utils/constants.js";
 
-const popupWithImg = new PopupWithImage(popupImg)
+const popupWithImg = new PopupWithImage(popupImg);
 const popupWithSendMessage = new PopupWithForm({
   popupElement: popupSendMessage,
   handleFormSubmit: (formData) => {
-
-    popupProfileForm.close()
-
-  }
-})
+    popupProfileForm.close();
+  },
+});
 
 popupWithSendMessage.setEventListeners();
 
-popupSendMessageOpenButton.addEventListener('click', () => {
-  popupWithSendMessage.open()
-})
+popupSendMessageOpenButton.addEventListener("click", () => {
+  popupWithSendMessage.open();
+});
 
 portfolioImageHowToLearn.addEventListener("click", () => {
   popupWithImg.open(initialLinks.linkHowToLearn);
@@ -44,7 +42,6 @@ portfolioImageMesto.addEventListener("click", () => {
 
 const menuLinks = Array.from(document.querySelectorAll(".menu__link"));
 const langElement = document.querySelector(".bio__page-language");
-console.log(menuLinks);
 menuLinks.forEach((item) => {
   item.addEventListener("click", () => {
     menuLinks.forEach((item) => item.classList.remove("menu__link_active"));
