@@ -5,7 +5,7 @@ export const portfolioImageRussianTravel = document.querySelector('.portfolio__l
 export const portfolioImageMesto = document.querySelector('.portfolio__list-image_type_mesto');
 
 export const initialLinks = {
-  linkHowToLearn: './images/portfolio-how-to-learn.jpg',
-  linkRussianTravel: './images/portfolio-russian-travel.jpg',
-  linkMesto: './images/portfolio-mesto.jpg'
+  linkHowToLearn: portfolioImageHowToLearn.src,
+  linkRussianTravel: portfolioImageRussianTravel.src,
+  linkMesto: portfolioImageMesto.src
 }
