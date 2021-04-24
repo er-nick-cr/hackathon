@@ -8,19 +8,6 @@
 @import url(../blocks/about/__header/about__header.css);
 @import url(../blocks/about/__content/about__content.css);
 
-
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__button/footer__button.css);
-@import url(../blocks/footer/__container/footer__container.css);
-@import url(../blocks/footer/__navigation-item/footer__navigation-item.css);
-@import url(../blocks/footer/__navigation-link/footer__navigation-link.css);
-@import url(../blocks/footer/__navigation-list/footer__navigation-list.css);
-@import url(../blocks/footer/__navigation-image/footer__navigation-image.css);
-@import url(../blocks/footer/__navigation/footer__navigation.css);
-@import url(../blocks/footer/__subtitle/footer__subtitle.css);
-@import url(../blocks/footer/__title/footer__title.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
-
 @import url(../blocks/appear/appear.css);
 @import url(../blocks/moveleft/moveleft.css);
 @import url(../blocks/moveup/moveup.css);
@@ -43,3 +30,24 @@
 @import url(../blocks/image/image.css);
 @import url(../blocks/image/__background/image__background.css);
 @import url(../blocks/image/__person/image__person.css);
+
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__container/portfolio__container.css);
+@import url(../blocks/portfolio/__list-image/portfolio__list-image.css);
+@import url(../blocks/portfolio/__list-item/portfolio__list-item.css);
+@import url(../blocks/portfolio/__list/portfolio__list.css);
+@import url(../blocks/portfolio/__title/portfolio__title.css);
+@import url(../blocks/portfolio/__wrapper-job/portfolio__wrapper-job.css);
+@import url(../blocks/portfolio/__list-link/portfolio__list-link.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__navigation-item/footer__navigation-item.css);
+@import url(../blocks/footer/__navigation-link/footer__navigation-link.css);
+@import url(../blocks/footer/__navigation-list/footer__navigation-list.css);
+@import url(../blocks/footer/__navigation-image/footer__navigation-image.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
