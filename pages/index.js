@@ -7,4 +7,8 @@ import {
 
 const popupWithImg = new PopupWithImage(popupImg)
 
-console(popupWithImg)
+console.log(portfolioImage)
+
+portfolioImage.addEventListener('click', () => {
+  popupWithImg.open()
+})
