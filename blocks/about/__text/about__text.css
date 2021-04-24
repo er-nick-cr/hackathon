@@ -30,8 +30,8 @@
 .about__text {
   margin: 0;
   padding-bottom: 40px;
-  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
-  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.5s both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.5s both;
 
 }
 
