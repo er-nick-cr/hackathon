@@ -1,0 +1,7 @@
+.portfolio__list-item {
+  text-align: center;
+}
+
+.portfolio__list-item:not(:first-child) {
+  margin-top: 136px;
+}
