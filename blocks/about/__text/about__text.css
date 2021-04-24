@@ -1,0 +1,8 @@
+.about__text {
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.about__text:last-of-type {
+  padding-bottom: 0;
+}
