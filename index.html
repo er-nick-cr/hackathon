@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Заголовок</title>
+  <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+  <title>FrontTeam</title>
 </head>
 
 <body class="page">
@@ -51,7 +52,8 @@
     <section class="about page__section">
       <h1 class="section__title">Обо мне</h1>
       <div class="about__content">
-        <p class="about__text">Привет, я Денис – фронтенд разработчик из Минска. Я&nbsp;интересуюсь&nbsp;веб разработкой и всем, что с ней связано</p>
+        <p class="about__text">Привет, я Денис – фронтенд разработчик из Минска. Я&nbsp;интересуюсь&nbsp;веб разработкой
+          и всем, что с ней связано</p>
         <p class="about__text">Я учусь на курсах веб разработки в Яндекс.Практикуме.</p>
         <p class="about__text">Готов реализовывать отличные проекты с&nbsp;замечательными&nbsp;людьми.</p>
       </div>
@@ -89,7 +91,7 @@
         <h2 class="portfolio__title">Портфолио</h2>
         <div class="portfolio__wrapper-job">
           <ul class="portfolio__list">
-            <li class="portfolio__list-item"><img class="portfolio__list-image"
+            <li class="portfolio__list-item"><img class="portfolio__list-image1"
                 src="./images/portfolio-how-to-learn.jpg" alt="Сайт Научиться учиться">
               <a class="portfolio__list-link" href="https://niarga.github.io/how-to-learn/index.html">Сайт о том, как
                 учиться</a>
@@ -113,6 +115,18 @@
 
     </section>
   </main>
+
+
+  <!-- Popup Image -->
+  <div class="popup popup_type_img">
+    <div class="popup__wrapPic">
+      <img class="popup__picture popup__picture_type_img" src="#" alt="#">
+      <p class="popup__placeName popup__placeName_type_img"></p>
+      <button class="popup__closeButton popup__closeButton_type_img"></button>
+    </div>
+  </div>
+  <!-- /Popup Image -->
+
 
   <footer class="footer">
 
@@ -138,6 +152,6 @@
 
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-  <!-- <script src="./pages/index.js" defer></script> -->
+  <script src="./pages/index.js" defer></script>
   <script src="./scripts/parallax.js"></script>
 </body>
