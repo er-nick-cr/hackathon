@@ -12,6 +12,7 @@
 @import url(../blocks/skill/skill.css);
 @import url(../blocks/skill/__image/skill__image.css);
 @import url(../blocks/skill/__caption/skill__caption.css);
+@import url(../blocks/skill/__level/skill__level.css);
 
 
 @import url(../blocks/footer/footer.css);
