@@ -1,12 +1,9 @@
 import Popup from "../components/Popup.js";
 import PopupWithImage from "../components/PopupWithImage.js";
 import PopupWithMenu from "../components/PopupWithMenu.js";
-import { popupImg, portfolioImage } from "../utils/constants.js";
-const popupWithImg = new PopupWithImage(popupImg);
 
 const menuButton = document.querySelector(".author__button");
 const menu = document.querySelector(".menu");
-import PopupWithImage from "../components/PopupWithImage.js";
 
 import {
   popupImg,
