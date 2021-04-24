@@ -2,15 +2,14 @@ import Popup from "../components/Popup.js";
 import PopupWithImage from "../components/PopupWithImage.js";
 import PopupWithMenu from "../components/PopupWithMenu.js";
 
-const menuButton = document.querySelector(".author__button");
-const menu = document.querySelector(".menu");
-
 import {
   popupImg,
   portfolioImageHowToLearn,
   portfolioImageRussianTravel,
   portfolioImageMesto,
   initialLinks,
+  menuButton,
+  menu,
 } from "../utils/constants.js";
 
 const popupWithImg = new PopupWithImage(popupImg);
