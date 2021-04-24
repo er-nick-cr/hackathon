@@ -1,19 +1,31 @@
-<<<<<<< HEAD
 import PopupWithImage from '../components/PopupWithImage.js'
 
 import {
   popupImg,
-  portfolioImage
+  portfolioImageHowToLearn,
+  portfolioImageRussianTravel,
+  portfolioImageMesto,
+  initialLinks
 } from '../utils/constants.js'
 
 const popupWithImg = new PopupWithImage(popupImg)
 
-console.log(portfolioImage)
+console.log(initialLinks.linkHowToLearn)
 
-portfolioImage.addEventListener('click', () => {
-  popupWithImg.open()
+portfolioImageHowToLearn.addEventListener('click', () => {
+  popupWithImg.open(initialLinks.linkHowToLearn)
 })
-=======
+
+portfolioImageRussianTravel.addEventListener('click', () => {
+  popupWithImg.open(initialLinks.linkRussianTravel)
+})
+
+portfolioImageMesto.addEventListener('click', () => {
+  popupWithImg.open(initialLinks.linkMesto)
+})
+
+
+
 const menuLinks = Array.from(document.querySelectorAll(".menu__link"));
 console.log(menuLinks);
 menuLinks.forEach((item) => {
@@ -22,8 +34,3 @@ menuLinks.forEach((item) => {
     item.classList.add("menu__link_active");
   });
 });
-import PopupWithImage from "../components/PopupWithImage.js";
-import { popupImg, portfolioImage } from "../utils/constants.js";
-const popupWithImg = new PopupWithImage(popupImg);
-console(popupWithImg);
->>>>>>> 9541fea384d660b96e4c5b35ff4533d58aef0c67
