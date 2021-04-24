@@ -9,7 +9,6 @@ export default class PopupWithMenu {
   open() {
     this._popupElement.classList.add("navigation_opened");
     this._langElement.classList.add("bio__page-language_visible");
-    console.log(this._menu);
   }
 
   close() {
