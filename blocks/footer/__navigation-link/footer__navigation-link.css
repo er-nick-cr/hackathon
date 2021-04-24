@@ -1,5 +1,6 @@
 .footer__navigation-link {
   text-decoration: none;
+  transition: 0.1s ease;
 }
 
 .footer__navigation-link:hover {
