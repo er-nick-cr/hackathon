@@ -14,7 +14,7 @@
     outline: none;
     padding: 0;
     background: transparent;
-    background-image: url(../../../images/close-icon.svg);
+    background-image: url(../../../images/close-icon-menu.svg);
     z-index: 6;
   }
 }
