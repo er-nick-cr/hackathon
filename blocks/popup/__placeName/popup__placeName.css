@@ -1,0 +1,9 @@
+.popup__placeName {
+  margin: 0;
+  margin-top: 10px;
+  color: white;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.25;
+}
