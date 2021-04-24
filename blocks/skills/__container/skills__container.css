@@ -3,3 +3,17 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
+
+@media screen and (max-width: 1000px) {
+  /* стили для экранов с разрешением менее 1001px по ширине */
+  .skills__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* стили для экранов с разрешением менее 501px по ширине */
+  .skills__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

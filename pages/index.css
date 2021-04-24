@@ -1,11 +1,8 @@
 @import url(../vendor/normalize.css);
-
 @import url(../blocks/section/__title/section__title.css);
-
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__content/about__content.css);
 @import url(../blocks/about/__text/about__text.css);
-
 @import url(../blocks/skills/skills.css);
 @import url(../blocks/skills/__subtitle/skills__subtitle.css);
 @import url(../blocks/skills/__container/skills__container.css);
@@ -13,6 +10,7 @@
 @import url(../blocks/skill/__image/skill__image.css);
 @import url(../blocks/skill/__caption/skill__caption.css);
 @import url(../blocks/navigation/__close-icon/navigation__close-icon.css);
+@import url(../blocks/skill/__level/skill__level.css);
 @import url(../blocks/appear/appear.css);
 @import url(../blocks/moveleft/moveleft.css);
 @import url(../blocks/moveup/moveup.css);
@@ -44,7 +42,6 @@
 @import url(../blocks/portfolio/__title/portfolio__title.css);
 @import url(../blocks/portfolio/__wrapper-job/portfolio__wrapper-job.css);
 @import url(../blocks/portfolio/__list-link/portfolio__list-link.css);
-
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__button/footer__button.css);
 @import url(../blocks/footer/__container/footer__container.css);
