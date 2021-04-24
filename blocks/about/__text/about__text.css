@@ -2,7 +2,7 @@
   margin: 0;
   padding-bottom: 40px;
   opacity: 0;
-  transition: all 3s ease;
+  transition: all 2.5s ease;
 }
 
 .about__text:last-of-type {
