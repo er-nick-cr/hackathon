@@ -1,18 +1,50 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <script src="./pages/index.js" defer></script>
   <title>Заголовок</title>
 </head>
 
 <body class="page">
   <header class="header">
-
+    <nav class="navigation">
+      <ul class="menu">
+        <li>
+          <a href="#" class="menu__link appear menu__link_active">Домой</a>
+        </li>
+        <li><a href="#" class="menu__link appear">О себе</a></li>
+        <li><a href="#" class="menu__link appear">Навыки</a></li>
+        <li><a href="#" class="menu__link appear">Портфолио</a></li>
+        <li><a href="#" class="menu__link appear">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="content">
+    <section class="author">
+      <div class="bio">
+        <div class="bio__name">
+          <h1 class="bio__first-name movetext">Денис</h1>
+          <h2 class="bio__second-name movetext">Новик</h2>
+        </div>
+        <article class="bio__about moveup">
+          UX | UI дизайнер 24 года, Москва
+        </article>
+        <ul class="bio__page-language moveright">
+          <li>
+            <a href="#" class="bio__lang-link bio__lang-link_active">RU</a>
+          </li>
+          <span class="bio__border">|</span>
+          <li><a href="#" class="bio__lang-link">ENG</a></li>
+        </ul>
+      </div>
+      <div data-limit-y="0" class="image appear">
+        <div data-depth="0.01" class="image__background"></div>
+        <div data-depth="0.15" class="image__person"></div>
+      </div>
+    </section>
     <section class="about page__section">
       <h1 class="about__header">About me</h1>
       <p class="about__content">Hi, I'm Denis – UX/UI designer from Minsk. I'm&nbsp;interested&nbsp;in design and
@@ -20,11 +52,6 @@
       <p class="about__content">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
       <p class="about__content">Ready to implement excellent projects with&nbsp;wonderful&nbsp;people.</p>
     </section>
-
-  </header>
-
-  <main id="content">
-
   </main>
 
   <footer class="footer">
@@ -49,61 +76,7 @@
     </div>
 
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <!-- <script src="./pages/index.js" defer></script> -->
+  <script src="./scripts/parallax.js"></script>
 </body>
-
-=======
-<html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./pages/index.css" />
-		<title>Заголовок</title>
-	</head>
-	<body class="body">
-		<page class="page">
-			<header class="header">
-				<nav class="navigation">
-					<ul class="menu">
-						<li>
-							<a href="#" class="menu__link appear menu__link_active">Домой</a>
-						</li>
-						<li><a href="#" class="menu__link appear">О себе</a></li>
-						<li><a href="#" class="menu__link appear">Навыки</a></li>
-						<li><a href="#" class="menu__link appear">Портфолио</a></li>
-						<li><a href="#" class="menu__link appear">Контакты</a></li>
-					</ul>
-				</nav>
-			</header>
-			<main id="content">
-				<section class="author">
-					<div class="bio">
-						<div class="bio__name">
-							<h1 class="bio__first-name movetext">Денис</h1>
-							<h2 class="bio__second-name movetext">Новик</h2>
-						</div>
-						<article class="bio__about moveup">
-							UX | UI дизайнер 24 года, Москва
-						</article>
-						<ul class="bio__page-language moveright">
-							<li>
-								<a href="#" class="bio__lang-link bio__lang-link_active">RU</a>
-							</li>
-							<span class="bio__border">|</span>
-							<li><a href="#" class="bio__lang-link">ENG</a></li>
-						</ul>
-					</div>
-					<div data-limit-y="0" class="image appear">
-						<div data-depth="0.01" class="image__background"></div>
-						<div data-depth="0.15" class="image__person"></div>
-					</div>
-				</section>
-			</main>
-
-			<footer class="footer"></footer>
-		</page>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-		<!-- <script src="./pages/index.js" defer></script> -->
-		<script src="./scripts/parallax.js"></script>
-	</body>
->>>>>>> f2661fe62018ca1c1e7e83e8860abc0f57aab8ac
-</html>

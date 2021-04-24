@@ -1,5 +1,4 @@
 @import url(../vendor/normalize.css);
-<<<<<<< HEAD
 @import url(../vendor/fonts/inter/inter.css);
 @import url(../blocks/page/page.css);
 
@@ -20,7 +19,6 @@
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
 @import url(../blocks/footer/__title/footer__title.css);
-=======
 @import url(../blocks/appear/appear.css);
 @import url(../blocks/moveleft/moveleft.css);
 @import url(../blocks/moveup/moveup.css);
@@ -43,4 +41,3 @@
 @import url(../blocks/image/image.css);
 @import url(../blocks/image/__background/image__background.css);
 @import url(../blocks/image/__person/image__person.css);
->>>>>>> f2661fe62018ca1c1e7e83e8860abc0f57aab8ac
