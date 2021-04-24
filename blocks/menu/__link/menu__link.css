@@ -22,5 +22,11 @@
     margin-left: 26px;
     font-size: 34px;
     line-height: 42px;
+    transition: none;
+    transform: none;
+  }
+
+  .menu__link:hover {
+    transform: none;
   }
 }

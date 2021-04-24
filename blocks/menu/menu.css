@@ -13,7 +13,6 @@
 
 @media screen and (max-width: 1000px) {
   .menu {
-    display: block;
     position: fixed;
     top: 0;
     right: 0;
@@ -22,6 +21,8 @@
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     z-index: 3;
     background-color: #fff;
   }
