@@ -1,4 +1,10 @@
 .portfolio__list-image {
   max-width: 100%;
   width: 100%;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.portfolio__list-image:hover {
+  opacity: 0.92;
 }

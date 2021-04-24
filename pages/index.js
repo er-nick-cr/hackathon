@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-import PopupWithImage from '../components/PopupWithImage.js';
 import PopupWithForm from '../components/PopupWithForm.js';
-=======
-import Popup from "../components/Popup.js";
 import PopupWithImage from "../components/PopupWithImage.js";
 import PopupWithMenu from "../components/PopupWithMenu.js";
->>>>>>> a62e3e799951818e074e0b3a9399ac8f5501a6e1
 
 import {
   popupImg,
@@ -19,7 +14,6 @@ import {
   menu,
 } from "../utils/constants.js";
 
-<<<<<<< HEAD
 const popupWithImg = new PopupWithImage(popupImg)
 const popupWithSendMessage = new PopupWithForm({
   popupElement: popupSendMessage,
@@ -57,11 +51,6 @@ popupWithSendMessage.setEventListeners()
 popupSendMessageOpenButton.addEventListener('click', () => {
   popupWithSendMessage.open()
 })
-=======
-const popupWithImg = new PopupWithImage(popupImg);
-
-console.log(initialLinks.linkHowToLearn);
->>>>>>> a62e3e799951818e074e0b3a9399ac8f5501a6e1
 
 portfolioImageHowToLearn.addEventListener("click", () => {
   popupWithImg.open(initialLinks.linkHowToLearn);
