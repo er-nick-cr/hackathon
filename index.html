@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,6 @@
   <link rel="icon" href="./images/favicon.png" type="image/x-icon">
   <title>FrontTeam</title>
 </head>
-
 <body class="page">
   <header class="header">
     <nav class="navigation">
@@ -48,7 +46,6 @@
       </div>
       <button type="button" class="author__button cursor"></button>
     </section>
-
     <section id="about" class="about page__section">
       <h1 class="section__title">Обо мне</h1>
       <div class="about__content">
@@ -58,7 +55,6 @@
         <p class="about__text">Готов реализовывать отличные проекты с&nbsp;замечательными&nbsp;людьми.</p>
       </div>
     </section>
-
     <section id="skills" class="skills">
       <h1 class="section__title">Навыки</h1>
       <p class="skills__subtitle">Я использую технологии:</p>
@@ -85,7 +81,6 @@
         </figure>
       </div>
     </section>
-
     <section id="portfolio" class="portfolio page__section">
       <div class="portfolio__container">
         <h2 class="portfolio__title">Портфолио</h2>
@@ -113,11 +108,8 @@
           </ul>
         </div>
       </div>
-
     </section>
   </main>
-
-
   <!-- Popup Image -->
   <div class="popup popup_type_img">
     <div class="popup__wrapPic">
@@ -127,11 +119,25 @@
     </div>
   </div>
   <!-- /Popup Image -->
-
-  
-
+  <!-- Popup UserProfile-->
+  <div class="popup popup_type_profile">
+    <div class="popup__container">
+      <form class="popup__form popup__form_type_profile" action="#" name="popupProfile" novalidate>
+        <h2 class="popup__title">Отправить сообщение</h2>
+        <input class="popup__input popup__input_type_profileName" id="popupProfileInputTypeName" type="text"
+          name="popupProfileInputTypeName" required value="" placeholder="Имя" minlength="2" maxlength="40">
+        <span class="popup__input-error" id="popupProfileInputTypeName-error"></span>
+        <input class="popup__input popup__input_type_profileJob" id="popupProfileInputTypeJob" type="email"
+          name="popupProfileInputTypeJob" required value="" placeholder="E-mail" minlength="2" maxlength="200">
+        <span class="popup__input-error popup__form-error" id="popupProfileInputTypeJob-error"></span>
+        <textarea class="popup__input" name="message" cols="30" rows="4" placeholder="Введите сообщение"></textarea>
+        <button class="popup__saveBtn" type="submit" name="saveButton">Отправить</button>
+      </form>
+      <button class="popup__closeButton popup__closeButton_type_profile" type="button" name="closeButton"></button>
+    </div>
+  </div>
+  <!-- /Popup UserProfile-->
   <footer class="footer">
-
     <div id="contacts" class="footer__container">
       <h1 class="footer__title">Контакты</h1>
       <p class="footer__subtitle">Хотите узнать больше или просто поболтать?
@@ -149,9 +155,7 @@
         </ul>
       </nav>
       <p class="footer__copyright">&copy;2021. FrontTeam</p>
-
     </div>
-
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
   <script src="./pages/index.js" type="module" defer></script>
