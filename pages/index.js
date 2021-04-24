@@ -19,29 +19,8 @@ const popupWithSendMessage = new PopupWithForm({
   popupElement: popupSendMessage,
   handleFormSubmit: (formData) => {
 
-    popupProfileForm.indicatLoading()
-    api.patchSaveUserData(
-        formData.popupProfileInputTypeName,
-        formData.popupProfileInputTypeJob
-      )
-      .then(responseUserData => {
+    popupProfileForm.close()
 
-        userData.setUserInfo({
-          name: responseUserData.name,
-          job: responseUserData.about,
-          id: responseUserData._id,
-          avatar: responseUserData.avatar
-        })
-
-        popupProfileForm.close()
-      })
-      .catch(err => {
-        console.log('Ошибка при отправке новых данных о пользователе')
-      })
-      .finally(() => {
-        popupProfileForm.stopIndicatLoading()
-        popupProfileValid.toggleButtonState()
-      })
   }
 })
 
