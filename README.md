@@ -11,4 +11,4 @@
 
 ### Функционал
 
-(b.co/7zW2t0k/readme.png)
+![Скрин сайта](b.co/7zW2t0k/readme.png)
