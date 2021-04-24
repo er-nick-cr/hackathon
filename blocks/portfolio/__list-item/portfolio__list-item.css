@@ -5,3 +5,11 @@
 .portfolio__list-item:not(:first-child) {
   margin-top: 136px;
 }
+
+@media screen and (max-width: 550px) {
+
+  .portfolio__list-item:not(:first-child) {
+    margin-top: 90px;
+  }
+
+}

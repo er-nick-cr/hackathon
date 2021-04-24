@@ -4,3 +4,12 @@
   padding-top: 112px;
   padding-bottom: 160px;
 }
+
+@media screen and (max-width: 550px) {
+
+  .portfolio__container {
+    padding-top: 70px;
+    padding-bottom: 85px;
+  }
+
+}
