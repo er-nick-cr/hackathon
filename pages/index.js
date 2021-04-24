@@ -1,7 +1,5 @@
 import PopupWithImage from "../components/PopupWithImage.js";
 import PopupWithForm from "../components/PopupWithForm.js";
-import Popup from "../components/Popup.js";
-import PopupWithImage from "../components/PopupWithImage.js";
 import PopupWithMenu from "../components/PopupWithMenu.js";
 
 import {
@@ -51,7 +49,6 @@ popupWithSendMessage.setEventListeners();
 popupSendMessageOpenButton.addEventListener("click", () => {
   popupWithSendMessage.open();
 });
-const popupWithImg = new PopupWithImage(popupImg);
 
 console.log(initialLinks.linkHowToLearn);
 
