@@ -1,10 +1,14 @@
 .bio__first-name {
-	font-size: 47.3392px;
-	line-height: 59px;
-	font-weight: bold;
-	margin: 0;
+  font-size: 47.3392px;
+  line-height: 59px;
+  font-weight: bold;
+  margin: 0;
+  animation: moveleft 3s ease;
 }
 
-.bio__first-name {
-	animation: moveleft 3s ease;
+@media screen and (max-width: 100px) {
+  .bio__first-name {
+    font-size: 47px;
+    line-height: 58px;
+  }
 }

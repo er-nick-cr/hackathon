@@ -35,7 +35,7 @@
 @import url(../blocks/image/image.css);
 @import url(../blocks/image/__background/image__background.css);
 @import url(../blocks/image/__person/image__person.css);
-
+@import url(../blocks/bio/__button/author__button.css);
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/portfolio/__container/portfolio__container.css);
 @import url(../blocks/portfolio/__list-image/portfolio__list-image.css);

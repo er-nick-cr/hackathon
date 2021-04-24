@@ -1,5 +1,23 @@
 .image__background {
-	width: 940px;
-	height: 387px;
-	background-image: url(../../../images/image-background.jpg);
+  width: 100%;
+  height: 387px;
+  background-image: url(../../../images/image-background.jpg);
+}
+
+@media screen and (max-width: 1000px) {
+  .image__background {
+    background-image: url(../../../images/image-full.png);
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .image__background {
+    width: 316.5px;
+    height: 478px;
+    background-image: url(../../../images/image-full-mobile.png);
+    background-position: center;
+    background-size: cover;
+  }
 }
