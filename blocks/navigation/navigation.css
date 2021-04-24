@@ -4,6 +4,10 @@
 
 @media screen and (max-width: 1000px) {
   .navigation {
+    position: fixed;
+    width: 100vw;
+    height: 200vh;
     display: none;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }

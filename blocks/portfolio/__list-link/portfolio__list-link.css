@@ -9,5 +9,10 @@
 }
 
 .portfolio__list-link:hover {
-  opacity: 0.6;
+  opacity: 0.5;
+  transition: opacity 0.5s linear;
+}
+
+.portfolio__list-link:active {
+  color: #2f80ed;
 }

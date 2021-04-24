@@ -1,3 +1,5 @@
-.footer__navigation-item {
-  
+.footer__navigation-item:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s linear;
 }
+

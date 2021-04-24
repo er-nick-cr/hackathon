@@ -71,6 +71,9 @@
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/bio/__page-language/_opened/bio__page-language_visible.css);
+
 @import url(../blocks/navigation/_opened/navigation_opened.css);
 @import url(../blocks/content/content.css);
+@import url(../blocks/bio/__page-language/_opened/bio__page-language_visible.css);
+@import url(../blocks/popup/__submit-button/popup__submit-button.css);
+@import url(../blocks/popup/__submit-button/_inactive/popup__submit-button_inactive.css);
