@@ -1,7 +1,10 @@
-import PopupWithImage from '../components/PopupWithImage.js'
+import PopupWithImage from '../components/PopupWithImage.js';
+import PopupWithForm from '../components/PopupWithForm.js';
 
 import {
   popupImg,
+  popupSendMessage,
+  popupSendMessageOpenButton,
   portfolioImageHowToLearn,
   portfolioImageRussianTravel,
   portfolioImageMesto,
@@ -9,8 +12,42 @@ import {
 } from '../utils/constants.js'
 
 const popupWithImg = new PopupWithImage(popupImg)
+const popupWithSendMessage = new PopupWithForm({
+  popupElement: popupSendMessage,
+  handleFormSubmit: (formData) => {
 
-console.log(initialLinks.linkHowToLearn)
+    popupProfileForm.indicatLoading()
+    api.patchSaveUserData(
+        formData.popupProfileInputTypeName,
+        formData.popupProfileInputTypeJob
+      )
+      .then(responseUserData => {
+
+        userData.setUserInfo({
+          name: responseUserData.name,
+          job: responseUserData.about,
+          id: responseUserData._id,
+          avatar: responseUserData.avatar
+        })
+
+        popupProfileForm.close()
+      })
+      .catch(err => {
+        console.log('Ошибка при отправке новых данных о пользователе')
+      })
+      .finally(() => {
+        popupProfileForm.stopIndicatLoading()
+        popupProfileValid.toggleButtonState()
+      })
+  }
+})
+
+popupWithSendMessage.setEventListeners()
+
+
+popupSendMessageOpenButton.addEventListener('click', () => {
+  popupWithSendMessage.open()
+})
 
 portfolioImageHowToLearn.addEventListener('click', () => {
   popupWithImg.open(initialLinks.linkHowToLearn)

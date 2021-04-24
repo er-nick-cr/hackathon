@@ -128,6 +128,24 @@
   </div>
   <!-- /Popup Image -->
 
+  <!-- Popup UserProfile-->
+  <div class="popup popup_type_profile">
+    <div class="popup__container">
+      <form class="popup__form popup__form_type_profile" action="#" name="popupProfile" novalidate>
+        <h2 class="popup__title">Отправить сообщение</h2>
+        <input class="popup__input popup__input_type_profileName" id="popupProfileInputTypeName" type="text"
+          name="popupProfileInputTypeName" required value="" placeholder="Имя" minlength="2" maxlength="40">
+        <span class="popup__input-error" id="popupProfileInputTypeName-error"></span>
+        <input class="popup__input popup__input_type_profileJob" id="popupProfileInputTypeJob" type="email"
+          name="popupProfileInputTypeJob" required value="" placeholder="E-mail" minlength="2" maxlength="200">
+        <span class="popup__input-error popup__form-error" id="popupProfileInputTypeJob-error"></span>
+        <textarea class="popup__input" name="message" cols="30" rows="4" placeholder="Введите сообщение"></textarea>
+        <button class="popup__saveBtn" type="submit" name="saveButton">Отправить</button>
+      </form>
+      <button class="popup__closeButton popup__closeButton_type_profile" type="button" name="closeButton"></button>
+    </div>
+  </div>
+  <!-- /Popup UserProfile-->
 
   <footer class="footer">
 
