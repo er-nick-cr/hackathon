@@ -1,0 +1,4 @@
+.navigation__close-icon {
+  display: none;
+  background-image: url(../../../images/close-icon.svg);
+}

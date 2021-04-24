@@ -15,6 +15,8 @@
   .menu {
     display: block;
     position: fixed;
+    top: 0;
+    right: 0;
     width: 375px;
     height: 812px;
     border: none;
