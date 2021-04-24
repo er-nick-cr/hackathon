@@ -3,6 +3,8 @@
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__content/about__content.css);
 @import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__text/_vivible/about__text_vivible.css);
+
 @import url(../blocks/skills/skills.css);
 @import url(../blocks/skills/__subtitle/skills__subtitle.css);
 @import url(../blocks/skills/__container/skills__container.css);

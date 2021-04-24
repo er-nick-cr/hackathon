@@ -62,3 +62,22 @@ popupWithMenu.setEventListeners();
 menu.addEventListener("pointerdown", (evt) => {
   evt.stopPropagation();
 });
+
+
+function onEntry(entry) {
+  entry.forEach(change => {
+    if (change.isIntersecting) {
+      change.target.classList.add('about__text_vivible');
+    }
+  });
+}
+
+const options = {
+  threshold: [0.5]
+};
+const observer = new IntersectionObserver(onEntry, options);
+const elements = document.querySelectorAll('.about__text');
+
+for (let elm of elements) {
+  observer.observe(elm);
+}
