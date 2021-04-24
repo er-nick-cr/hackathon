@@ -1,3 +1,7 @@
 .footer__navigation-link {
   text-decoration: none;
 }
+
+.footer__navigation-link:hover {
+  opacity: 0.6;
+}
